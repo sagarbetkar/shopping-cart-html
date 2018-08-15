@@ -2,6 +2,46 @@ body{
   background-color: #7EC855;
 }
 
-.container{
+.panel{
+  width: 875px;
+  margin: 100px auto;
+}
+
+/*.cross{
+  margin: 0 15px;
+}
+
+.cross::after{
+  background-image: url('/shopping-cart-html/images/twitter-heart.png');
+}
+*/
+
+.item{
+  display: grid;
+  grid-template-columns: 50px 50px 215px 200px 200px 125px;
+  padding: 15px 0px;
+}
+
+.cross-btn{
+  margin: auto;
+}
+.like-btn{
+  margin: auto;
+}
+.product{
+  margin: auto;
+}
+.description{
+  margin: auto 45px;
+}
+.quantity{
+  margin: auto;
+}
+input{
+  border: none;
+  width: 30px;
+  text-align: center;
+}
+.price{
   margin: auto;
 }
