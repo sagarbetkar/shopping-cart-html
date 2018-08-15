@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
 body{
   background-color: #7EC855;
+  font-family: 'Roboto', sans-serif;
 }
 
 .panel{
   width: 875px;
   margin: 100px auto;
+  border-radius: 6px;
+}
+.panel-heading{
+  background-color: #FFFFFF !important;
+}
+.panel-title{
+  padding: 15px 0;
+  color: #5F6977;
 }
 
 /*.cross{
@@ -25,6 +36,9 @@ body{
 .cross-btn{
   margin: auto;
 }
+.cross-btn .btn{
+    background: none;
+}
 .like-btn{
   margin: auto;
 }
@@ -33,6 +47,9 @@ body{
 }
 .description{
   margin: auto 45px;
+}
+span:last-child{
+  color: #A8B1B9;
 }
 .quantity{
   margin: auto;
