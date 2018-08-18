@@ -40,8 +40,28 @@ body{
     background: none;
 }
 .like-btn{
+  background-image: url('/images/twitter-heart.png');
+  background-size: 2900%;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
   margin: auto;
 }
+.like-btn:hover {
+   animation-name: heart;
+   animation-duration: .8s;
+   animation-iteration-count: 1;
+   animation-timing-function: steps(28);
+   animation-fill-mode: forwards;
+}
+
+
+@keyframes heart {
+  0%   { background-position: left;  }
+  50%  { background-position: right; }
+  100% { background-position: right; }
+}
+
 .product{
   margin: auto;
 }
